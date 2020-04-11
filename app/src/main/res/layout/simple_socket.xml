@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SimpleSocket">
+
+    <EditText
+        android:id="@+id/socket_ip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/socket_ip"
+        android:layout_margin="16dp"/>
+
+    <EditText
+        android:id="@+id/socket_port"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/socket_port"
+        android:layout_margin="16dp"/>
+
+    <EditText
+        android:id="@+id/socket_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/socket_input"
+        android:layout_margin="16dp"/>
+
+    <Button
+        android:id="@+id/socket_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/send" />
+
+    <TextView
+        android:id="@+id/socket_output"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/socket_output"
+        android:layout_margin="16dp"/>
+</LinearLayout>

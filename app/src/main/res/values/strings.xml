@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">miniactivitat6</string>
+    <string name="socket_ip">Socket IP Address</string>
+    <string name="socket_port">Socket Port</string>
+    <string name="socket_input">Socket input</string>
+    <string name="socket_output">Socket output</string>
+    <string name="send">Send</string>
 </resources>
